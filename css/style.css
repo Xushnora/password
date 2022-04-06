@@ -1,0 +1,98 @@
+body {
+    background-color: #6CA4F4;
+}
+
+.parent-box {
+    background-color: #6CA4F4;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checked-box {
+    padding: 20px;
+    width: 300px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: none;
+}
+
+.check-list {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.checked-box {
+    background-color: #222;
+}
+
+.check-item {
+    display: flex;
+}
+
+/* form input */
+
+.colorBox .input-box {
+    background-color: #222;
+}
+
+.colorBox input {
+    background-color: #222;
+}
+
+.input-box{
+    width: 300px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.input-box input {
+    background-color: #fff;
+    padding: 2px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+.eye-btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 10%;
+    height: 28px;
+}
+
+.lock-btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+
+}
+
+.check-item .bx {
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.2;
+}
+
+.check-item p {
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.2;
+}

@@ -10,11 +10,13 @@ let checkNumber = document.querySelector('#bxs3');
 let checkMore = document.querySelector('#bxs4');
 let eyeBtn = document.querySelector('.eye-btn');
 let inputBox = document.querySelector('.input-box');
+let eyeBx = document.querySelector('#eyeBx');
 
 let count = 0;
 
 eyeBtn.addEventListener('click', ()=> {
-    eyeBtn.className = "bi bi-eye-slash";
+    eyeBx.className = "bi bi-eye-slash-fill";
+ 
     // count++;
     // if(count == 1) {
     //     inputBox.classList.add('colorBox');

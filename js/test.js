@@ -14,8 +14,6 @@ let eyeBx = document.querySelector('#eyeBx');
 let lockIcon = document.querySelector('.bxs-lock-alt');
 let lockBtn = document.querySelector('.lock-btn');
 
-
-
 eyeBtn.addEventListener('click', (e)=> {
     e.preventDefault();
     elInput.classList.toggle('black');
